@@ -1,0 +1,22 @@
+.theme-switcher {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  padding: 8px 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.theme-switcher:hover {
+  background: var(--bg-hover);
+  transform: scale(1.05);
+}
+
+.theme-icon {
+  font-size: 18px;
+}
